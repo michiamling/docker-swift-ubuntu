@@ -1,11 +1,12 @@
 FROM ubuntu:15.10
 MAINTAINER Michael Amling <amling at amcom.at>
 
-ENV SWIFT_BRANCH swift-2.2-branch
-ENV SWIFT_VERSION 2.2-SNAPSHOT-2016-03-01-a
+ENV SWIFT_BRANCH swift-3.0-GM-CANDIDATE
+ENV SWIFT_VERSION 3.0-GM-CANDIDATE
 ENV SWIFT_PLATFORM ubuntu1510
 ENV SWIFT_PLATFORM_DOT ubuntu15.10
 
+#https://swift.org/builds/swift-3.0-GM-CANDIDATE/ubuntu1510/swift-3.0-GM-CANDIDATE/swift-3.0-GM-CANDIDATE-ubuntu15.10.tar.gz
 
 # Install related packages
 RUN apt-get update && \
