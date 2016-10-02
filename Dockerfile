@@ -10,7 +10,7 @@ ENV SWIFT_PLATFORM_DOT ubuntu15.10
 
 # Install related packages
 RUN apt-get update && \
-    apt-get install -y build-essential wget clang libedit-dev python2.7 python2.7-dev rsync libxml2 git curl && \
+    apt-get install -y build-essential wget clang libedit-dev python2.7 python2.7-dev rsync libxml2 git curl libcurl4-openssl-dev && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
