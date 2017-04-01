@@ -2,7 +2,7 @@ FROM ubuntu:16.04
 MAINTAINER Michael Amling <amling at amcom.at>
 
 ENV SWIFT_BRANCH swift-3.1-release
-ENV SWIFT_VERSION 3.1-release
+ENV SWIFT_VERSION 3.1-RELEASE
 ENV SWIFT_PLATFORM ubuntu1604
 ENV SWIFT_PLATFORM_DOT ubuntu16.04
 
