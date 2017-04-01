@@ -1,12 +1,12 @@
-FROM ubuntu:15.10
+FROM ubuntu:16.04
 MAINTAINER Michael Amling <amling at amcom.at>
 
-ENV SWIFT_BRANCH swift-3.0-GM-CANDIDATE
-ENV SWIFT_VERSION 3.0-GM-CANDIDATE
-ENV SWIFT_PLATFORM ubuntu1510
-ENV SWIFT_PLATFORM_DOT ubuntu15.10
+ENV SWIFT_BRANCH swift-3.1-release
+ENV SWIFT_VERSION swift-3.1-release
+ENV SWIFT_PLATFORM ubuntu1604
+ENV SWIFT_PLATFORM_DOT ubuntu16.04
 
-#https://swift.org/builds/swift-3.0-GM-CANDIDATE/ubuntu1510/swift-3.0-GM-CANDIDATE/swift-3.0-GM-CANDIDATE-ubuntu15.10.tar.gz
+#https://swift.org/builds/swift-3.1-release/ubuntu1604/swift-3.1-RELEASE/swift-3.1-RELEASE-ubuntu16.04.tar.gz
 
 # Install related packages
 RUN apt-get update && \
