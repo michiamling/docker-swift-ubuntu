@@ -1,12 +1,12 @@
 FROM ubuntu:16.04
 MAINTAINER Michael Amling <amling at amcom.at>
 
-ENV SWIFT_BRANCH swift-4.0.2-release
-ENV SWIFT_VERSION 4.0.2-RELEASE
+ENV SWIFT_BRANCH swift-5.2.2-release
+ENV SWIFT_VERSION swift-5.2.2-RELEASE
 ENV SWIFT_PLATFORM ubuntu1604
 ENV SWIFT_PLATFORM_DOT ubuntu16.04
 
-#https://swift.org/builds/swift-4.0.2-release/ubuntu1604/swift-4.0.2-RELEASE/swift-4.0.2-RELEASE-ubuntu16.04.tar.gz
+#https://swift.org/builds/swift-5.2.2-release/ubuntu1604/swift-5.2.2-RELEASE/swift-5.2.2-RELEASE-ubuntu16.04.tar.gz
 
 # Install related packages
 RUN apt-get update && \
